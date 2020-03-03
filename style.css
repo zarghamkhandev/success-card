@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "nunito";
+}
+
+.container {
+  width: 700px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .success-box {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  left: 12%;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #b0db7d), to(#99dbb4));
+  background: linear-gradient(to bottom right, #b0db7d 40%, #99dbb4 100%);
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 20px #cbcdd3;
+          box-shadow: 5px 5px 20px #cbcdd3;
+}
+
+.container .success-box .dot {
+  width: 8px;
+  height: 8px;
+  background: #fcfcfc;
+  position: absolute;
+  top: 4%;
+  right: 6%;
+  border-radius: 4px;
+}
+
+.container .success-box .dot:hover {
+  background: #c9c9c9;
+}
+
+.container .success-box .two {
+  right: 12%;
+  opacity: 0.5;
+}
+
+.container .success-box .face {
+  position: absolute;
+  width: 22%;
+  height: 22%;
+  background: #fcfcfc;
+  border-radius: 50%;
+  border: 1px solid #777777;
+  top: 21%;
+  left: 37.5%;
+}
+
+.container .success-box .face .eye {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #777777;
+  border-radius: 50%;
+  top: 40%;
+  left: 20%;
+}
+
+.container .success-box .face .right {
+  left: 68%;
+}
+
+.container .success-box .face .mouth {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #777777;
+  border-radius: 50%;
+  border-color: transparent transparent #777777 transparent;
+  top: 45%;
+  left: 35%;
+  position: absolute;
+}
+
+.container .success-box .shadow {
+  height: 3%;
+  width: 21%;
+  background-color: #777777;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+.container .success-box .message {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .success-box .message h1 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.container .success-box .message p {
+  font-size: 12px;
+}
+
+.container .success-box .message button {
+  text-transform: uppercase;
+  font-family: "nunito";
+  color: #99dbb4;
+  font-weight: bold;
+  background: #fcfcfc;
+  border: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=style.css.map */
